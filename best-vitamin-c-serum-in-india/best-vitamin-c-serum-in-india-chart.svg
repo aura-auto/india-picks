@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="Bar chart comparing vitamin C serum prices on Amazon.in in August 2026">
+  <style>text{font-family:system-ui,sans-serif;fill:#333}.bar{fill:#e11d48}.lbl{font-size:12px}.val{font-size:13px;font-weight:700}.ttl{font-size:16px;font-weight:700}</style>
+  <text x="20" y="30" class="ttl">Vitamin C serum prices on Amazon.in (Aug 2026)</text>
+  <line x1="60" y1="290" x2="580" y2="290" stroke="#ccc" stroke-width="1.5"/>
+  <g>
+    <rect class="bar" x="70" y="235" width="45" height="55" rx="4"/>
+    <text class="val" x="92" y="228" text-anchor="middle">186</text>
+    <text class="lbl" x="92" y="308" text-anchor="middle">Himalaya 15ml</text>
+  </g>
+  <g>
+    <rect class="bar" x="140" y="225" width="45" height="65" rx="4"/>
+    <text class="val" x="162" y="218" text-anchor="middle">248</text>
+    <text class="lbl" x="162" y="308" text-anchor="middle">Derma Co 10%</text>
+  </g>
+  <g>
+    <rect class="bar" x="210" y="216" width="45" height="74" rx="4"/>
+    <text class="val" x="232" y="209" text-anchor="middle">284</text>
+    <text class="lbl" x="232" y="308" text-anchor="middle">Minimalist 10%</text>
+  </g>
+  <g>
+    <rect class="bar" x="280" y="202" width="45" height="88" rx="4"/>
+    <text class="val" x="302" y="195" text-anchor="middle">332</text>
+    <text class="lbl" x="302" y="308" text-anchor="middle">Minimalist 16%</text>
+  </g>
+  <g>
+    <rect class="bar" x="350" y="171" width="45" height="119" rx="4"/>
+    <text class="val" x="372" y="164" text-anchor="middle">509</text>
+    <text class="lbl" x="372" y="308" text-anchor="middle">Pilgrim 30ml</text>
+  </g>
+  <g>
+    <rect class="bar" x="420" y="160" width="45" height="130" rx="4"/>
+    <text class="val" x="442" y="153" text-anchor="middle">575</text>
+    <text class="lbl" x="442" y="308" text-anchor="middle">Deconstruct</text>
+  </g>
+  <text x="20" y="330" style="font-size:11px;fill:#777">Prices in INR from Amazon.in search results, 12 Aug 2026. Lower pack-size prices shown.</text>
+</svg>
