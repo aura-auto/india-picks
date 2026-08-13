@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" role="img" aria-label="Bar chart comparing budget smartphone prices in India in August 2026">
+  <style>text{font-family:system-ui,sans-serif;fill:#333}.bar{fill:#0ea5e9}.bar2{fill:#d97706}.lbl{font-size:12px}.val{font-size:13px;font-weight:700}.ttl{font-size:16px;font-weight:700}.cap{font-size:11px;fill:#666}</style>
+  <text x="20" y="30" class="ttl">Budget smartphone prices in India (13 Aug 2026)</text>
+  <line x1="60" y1="300" x2="600" y2="300" stroke="#ccc" stroke-width="1.5"/>
+  <g>
+    <rect class="bar" x="70" y="85" width="55" height="215" rx="4"/>
+    <text class="val" x="97" y="78" text-anchor="middle">14,800</text>
+    <text class="lbl" x="97" y="320" text-anchor="middle">Moto G37 5G</text>
+  </g>
+  <g>
+    <rect class="bar" x="175" y="100" width="55" height="200" rx="4"/>
+    <text class="val" x="202" y="93" text-anchor="middle">14,240</text>
+    <text class="lbl" x="202" y="320" text-anchor="middle">Redmi A7 Pro 5G</text>
+  </g>
+  <g>
+    <rect class="bar" x="280" y="130" width="55" height="170" rx="4"/>
+    <text class="val" x="307" y="123" text-anchor="middle">12,998</text>
+    <text class="lbl" x="307" y="320" text-anchor="middle">Lava Bold N2 5G</text>
+  </g>
+  <g>
+    <rect class="bar2" x="385" y="135" width="55" height="165" rx="4"/>
+    <text class="val" x="412" y="128" text-anchor="middle">12,499*</text>
+    <text class="lbl" x="412" y="320" text-anchor="middle">Galaxy M17 (launch)</text>
+  </g>
+  <g>
+    <rect class="bar2" x="490" y="40" width="55" height="260" rx="4" style="opacity:.75"/>
+    <text class="val" x="517" y="33" text-anchor="middle">16,785</text>
+    <text class="lbl" x="517" y="320" text-anchor="middle">Galaxy M17 (now)</text>
+  </g>
+  <text x="60" y="345" class="cap">Prices in Rs. from Gadgets360 listings, 13 Aug 2026. Galaxy M17 base (4/128) launch vs current market price; current price sits above this budget.</text>
+</svg>

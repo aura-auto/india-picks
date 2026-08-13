@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <title>Approximate cost of a starter UPSC book set (prices checked 12 Aug 2026, Amazon.in)</title>
+  <rect width="720" height="420" fill="#fafafa"/>
+  <text x="24" y="32" font-size="18" font-weight="bold" fill="#1a1a1a">Approximate starter UPSC book set cost</text>
+  <text x="24" y="52" font-size="12" fill="#555">Prices checked 12 August 2026 on Amazon.in; values rounded / vary with sales.</text>
+
+  <g transform="translate(60,80)">
+    <!-- bars -->
+    <text x="0" y="16" fill="#333">Objective Indian Polity</text>
+    <rect x="250" y="4" width="215" height="22" fill="#c0392b" rx="3"/>
+    <text x="472" y="22" fill="#333">Rs. 430</text>
+
+    <text x="0" y="48" fill="#333">India's Struggle for Independence</text>
+    <rect x="250" y="36" width="243" height="22" fill="#7f8c8d" rx="3"/>
+    <text x="472" y="54" fill="#333">~Rs. 485</text>
+
+    <text x="0" y="80" fill="#333">NCERT priority set (6 books)</text>
+    <rect x="250" y="68" width="125" height="22" fill="#27ae60" rx="3"/>
+    <text x="472" y="86" fill="#333">Rs. 35-60 each, or free</text>
+
+    <line x1="250" y1="100" x2="250" y2="106" stroke="#999"/>
+    <text x="250" y="124" font-size="12" fill="#999">Bar length scales to approx. price (Rs. 2 per unit).</text>
+    <text x="250" y="140" font-size="12" fill="#999">Indian Polity (Laxmikanth 8th) not shown - price varies by sale.</text>
+  </g>
+</svg>

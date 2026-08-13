@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-label="Price comparison of verified pressure cooker picks on Amazon.in (August 2026)">
+  <rect width="640" height="380" fill="#f7f7f7"/>
+  <text x="20" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#222">Pressure cooker prices on Amazon.in (Rs., checked 12 Aug 2026)</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#222">
+    <!-- row 1: Hawkins Classic 1.5L = 1282 -->
+    <text x="20" y="90">Hawkins Classic 1.5L of 1282</text>
+    <rect x="230" y="72" width="120" height="22" fill="#2b6cb0" rx="3"/>
+    <text x="356" y="88">Rs. 1,282</text>
+    <!-- row 2: Hawkins Contura 1.5L = 1724 -->
+    <text x="20" y="155">Hawkins Contura XT 1.5L</text>
+    <rect x="230" y="137" width="160" height="22" fill="#2c7a4d" rx="3"/>
+    <text x="396" y="153">Rs. 1,724</text>
+    <!-- row 3: Hawkins Triply 1.5L = 2373 -->
+    <text x="20" y="220">Hawkins Triply Steel 1.5L</text>
+    <rect x="230" y="202" width="222" height="22" fill="#b7791f" rx="3"/>
+    <text x="458" y="218">Rs. 2,373</text>
+    <!-- row 4: Prestige Popular Max Combo = 2760 -->
+    <text x="20" y="285">Prestige Popular Max Combo</text>
+    <rect x="230" y="267" width="258" height="22" fill="#9b2c2c" rx="3"/>
+    <text x="494" y="283">Rs. 2,760</text>
+    <!-- row 5: Prestige Svachh 2L+3L+5L = 3399 -->
+    <text x="20" y="350">Prestige Svachh 2L+3L+5L set</text>
+    <rect x="230" y="332" width="318" height="22" fill="#5a5a5a" rx="3"/>
+    <text x="554" y="348">Rs. 3,399</text>
+  </g>
+  <!-- scale notes -->
+  <text x="230" y="380" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888">Bar length is scaled to price; capacities and features differ per pick.</text>
+</svg>
