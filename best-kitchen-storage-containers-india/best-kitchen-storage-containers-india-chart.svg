@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="Typical price range by storage container material, verified on Amazon.in, August 2026">
+  <title>Typical price range by material (Amazon.in, Aug 2026)</title>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    .axis { fill: #555; font-size: 12px; }
+    .label { fill: #222; font-size: 14px; font-weight: 600; }
+    .bar { fill: #d97706; }
+    .bartext { fill: #111; font-size: 13px; font-weight: 600; }
+  </style>
+  <!-- axes -->
+  <line x1="70" y1="40" x2="70" y2="290" stroke="#999" stroke-width="1"/>
+  <line x1="70" y1="290" x2="680" y2="290" stroke="#999" stroke-width="1"/>
+  <text class="axis" x="70" y="308">0</text>
+  <text class="axis" x="264" y="308">500</text>
+  <text class="axis" x="320" y="308">1000</text>
+  <text class="axis" x="463" y="308">1500</text>
+  <text class="axis" x="605" y="308">2000</text>
+  <text class="axis" x="700" y="308">2500</text>
+
+  <!-- Plastic: min 149, max 765 -> px: 70 + (start/3000)*610 -->
+  <!-- Plastic range bar -->
+  <text class="label" x="70" y="80">Plastic airtight sets</text>
+  <rect x="100" y="88" width="125" height="26" rx="4" class="bar"/>
+  <text class="bartext" x="163" y="106" text-anchor="middle">149 - 765</text>
+
+  <!-- Steel: min 229, max 1777 -->
+  <text class="label" x="70" y="150">Steel lunchboxes</text>
+  <rect x="117" y="158" width="315" height="26" rx="4" class="bar"/>
+  <text class="bartext" x="274" y="176" text-anchor="middle">229 - 1777</text>
+
+  <!-- Glass: min 2130, max 2841 -->
+  <text class="label" x="70" y="220">Glass meal-prep sets</text>
+  <rect x="503" y="228" width="145" height="26" rx="4" class="bar"/>
+  <text class="bartext" x="575" y="246" text-anchor="middle">2130 - 2841</text>
+
+  <text class="axis" x="70" y="345">INR price range per category (verified product prices, Amazon.in, 13 Aug 2026)</text>
+</svg>

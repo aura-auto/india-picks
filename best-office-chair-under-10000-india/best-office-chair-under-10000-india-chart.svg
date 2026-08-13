@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="440" viewBox="0 0 700 440" font-family="Arial, Helvetica, sans-serif">
+  <title>Office chairs under Rs 10,000: price vs user rating</title>
+  <rect width="700" height="440" fill="#ffffff"/>
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Office chairs under Rs 10,000: price vs rating</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#666">Verified Amazon.in list prices, Aug 2026</text>
+
+  <!-- axes -->
+  <line x1="70" y1="380" x2="650" y2="380" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="380" x2="70" y2="50" stroke="#333" stroke-width="2"/>
+  <text x="30" y="215" fill="#555" font-size="12" transform="rotate(-90 30 215)" text-anchor="middle">User rating (stars)</text>
+  <text x="360" y="415" text-anchor="middle" fill="#555" font-size="12">Price (Rs, thousands)</text>
+
+  <!-- x labels (price) 4.5k to 9.5k -->
+  <text x="70" y="398" text-anchor="middle" font-size="11" fill="#444">4</text>
+  <text x="209" y="398" text-anchor="middle" font-size="11" fill="#444">5</text>
+  <text x="348" y="398" text-anchor="middle" font-size="11" fill="#444">6</text>
+  <text x="487" y="398" text-anchor="middle" font-size="11" fill="#444">8</text>
+  <text x="626" y="398" text-anchor="middle" font-size="11" fill="#444">9.5</text>
+
+  <!-- y labels (rating) 3.9 to 4.8 -->
+  <text x="60" y="374" text-anchor="end" font-size="11" fill="#444">3.9</text>
+  <text x="60" y="314" text-anchor="end" font-size="11" fill="#444">4.1</text>
+  <text x="60" y="254" text-anchor="end" font-size="11" fill="#444">4.3</text>
+  <text x="60" y="194" text-anchor="end" font-size="11" fill="#444">4.5</text>
+  <text x="60" y="134" text-anchor="end" font-size="11" fill="#444">4.7</text>
+
+  <!-- scale: x price 4000->70, 9500->626 ; y rating 3.9->374, 4.8->110 -->
+  <!-- helper mapping done manually -->
+
+  <!-- points: (price,rating) -->
+  <!-- Da URBAN Merlion (4899,4.7) -->
+  <circle cx="167" cy="137" r="7" fill="#2563eb"/>
+  <text x="167" y="122" text-anchor="middle" font-size="11" fill="#111">Da URBAN Merlion</text>
+  <!-- CELLBELL C190 (4949,4.2) -->
+  <circle cx="172" cy="300" r="6" fill="#16a34a"/>
+  <text x="172" y="285" text-anchor="middle" font-size="10" fill="#111">CELLBELL C190</text>
+  <!-- IAFA Ergolux (4599,3.9) -->
+  <circle cx="126" cy="374" r="6" fill="#94a3b8"/>
+  <text x="126" y="392" text-anchor="middle" font-size="10" fill="#111">IAFA Ergolux</text>
+  <!-- Wakefit Safari (6397,4.4) -->
+  <circle cx="398" cy="222" r="7" fill="#d97706"/>
+  <text x="398" y="207" text-anchor="middle" font-size="11" fill="#111">Wakefit Safari</text>
+  <!-- Green Soul Zodiac Lite (6490,4.1) -->
+  <circle cx="408" cy="314" r="6" fill="#9333ea"/>
+  <text x="408" y="299" text-anchor="middle" font-size="10" fill="#111">GS Zodiac Lite</text>
+  <!-- Green Soul Jupiter Pro (9490,4.4) -->
+  <circle cx="625" cy="222" r="7" fill="#dc2626"/>
+  <text x="600" y="190" text-anchor="middle" font-size="11" fill="#111">GS Jupiter Pro</text>
+  <!-- GS Leo (9490,4.2) -->
+  <circle cx="625" cy="300" r="6" fill="#0d9488"/>
+  <text x="648" y="316" text-anchor="middle" font-size="10" fill="#111">GS Leo</text>
+  <!-- Sleep Company SwivL (8499,4.0) -->
+  <circle cx="535" cy="345" r="6" fill="#f59e0b"/>
+  <text x="535" y="365" text-anchor="middle" font-size="10" fill="#111">SwivL</text>
+</svg>

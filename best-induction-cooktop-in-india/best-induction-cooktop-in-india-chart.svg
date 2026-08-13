@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">Amazon.in sale prices of popular induction cooktops (August 2026)</title>
+  <desc id="desc">Horizontal-free bar chart comparing current sale price in rupees for eight induction cooktop models, with the M.R.P gap shown as a lighter cap above each bar.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="20" y="28" font-size="17" font-weight="bold" fill="#222">Induction cooktop sale prices (Amazon.in, Aug 2026)</text>
+  <text x="20" y="46" font-size="11" fill="#666">Blue = sale price. Light cap above = M.R.P gap. All figures in rupees.</text>
+
+  <!-- y gridlines and labels -->
+  <g font-size="10" fill="#888">
+    <line x1="60" y1="40" x2="690" y2="40" stroke="#eee"/><text x="55" y="44" text-anchor="end">5000</text>
+    <line x1="60" y1="102" x2="690" y2="102" stroke="#eee"/><text x="55" y="106" text-anchor="end">4000</text>
+    <line x1="60" y1="164" x2="690" y2="164" stroke="#eee"/><text x="55" y="168" text-anchor="end">3000</text>
+    <line x1="60" y1="226" x2="690" y2="226" stroke="#eee"/><text x="55" y="230" text-anchor="end">2000</text>
+    <line x1="60" y1="288" x2="690" y2="288" stroke="#eee"/><text x="55" y="292" text-anchor="end">1000</text>
+    <line x1="60" y1="350" x2="690" y2="350" stroke="#ccc"/><text x="55" y="354" text-anchor="end">0</text>
+  </g>
+
+  <!-- helper: table computed for 8 slots, left=60 right=690, slotW=78.75, barW=41, x centers at 99.375,178.125,... -->
+  <g>
+    <!-- Amazon Basics: sale 1325 -> y288, mrp 3799 -> y40(top cap at 40..288); sale bar from 288..350 -->
+    <rect x="70" y="40" width="41" height="248" fill="#dbe6f6"/>
+    <rect x="70" y="288" width="41" height="62" fill="#2a6fb9"/>
+    <text x="90.5" y="283" text-anchor="middle" font-size="9" fill="#222">Rs 1,325</text>
+    <text x="90.5" y="366" text-anchor="middle" font-size="9" fill="#444">Amazon Basics</text>
+
+    <!-- Pigeon Cruise: sale 1799 -> y266, mrp 2922 -> y136 -->
+    <rect x="148" y="136" width="41" height="130" fill="#dbe6f6"/>
+    <rect x="148" y="266" width="41" height="84" fill="#2a6fb9"/>
+    <text x="168.5" y="261" text-anchor="middle" font-size="9" fill="#222">Rs 1,799</text>
+    <text x="168.5" y="366" text-anchor="middle" font-size="9" fill="#444">Pigeon Cruise</text>
+
+    <!-- Cadlec CF5: sale 1800 -> y266, mrp 3999 -> y25(clamp to 40) -->
+    <rect x="226" y="40" width="41" height="226" fill="#dbe6f6"/>
+    <rect x="226" y="266" width="41" height="84" fill="#2a6fb9"/>
+    <text x="246.5" y="261" text-anchor="middle" font-size="9" fill="#222">Rs 1,800</text>
+    <text x="246.5" y="366" text-anchor="middle" font-size="9" fill="#444">Cadlec CF5</text>
+
+    <!-- iBELL 20YO: sale 2290 -> y223, mrp 4490 -> y21(clamp 40) -->
+    <rect x="304" y="40" width="41" height="183" fill="#dbe6f6"/>
+    <rect x="304" y="223" width="41" height="127" fill="#2a6fb9"/>
+    <text x="324.5" y="218" text-anchor="middle" font-size="9" fill="#222">Rs 2,290</text>
+    <text x="324.5" y="366" text-anchor="middle" font-size="9" fill="#444">iBELL 20YO</text>
+
+    <!-- Prestige PIC20: sale 2299 -> y222, mrp 3645 -> y92 -->
+    <rect x="382" y="92" width="41" height="130" fill="#dbe6f6"/>
+    <rect x="382" y="222" width="41" height="128" fill="#2a6fb9"/>
+    <text x="402.5" y="217" text-anchor="middle" font-size="9" fill="#222">Rs 2,299</text>
+    <text x="402.5" y="366" text-anchor="middle" font-size="9" fill="#444">Prestige PIC20</text>
+
+    <!-- Philips HD4934: sale 2999 -> y164, mrp 3995 -> y24(clamp 40) -->
+    <rect x="460" y="40" width="41" height="124" fill="#dbe6f6"/>
+    <rect x="460" y="164" width="41" height="186" fill="#2a6fb9"/>
+    <text x="480.5" y="159" text-anchor="middle" font-size="9" fill="#222">Rs 2,999</text>
+    <text x="480.5" y="366" text-anchor="middle" font-size="9" fill="#444">Philips HD4934</text>
+
+    <!-- Prestige 16.0+: sale 3110 -> y148, mrp 4685 -> y10(clamp 40) -->
+    <rect x="538" y="40" width="41" height="108" fill="#dbe6f6"/>
+    <rect x="538" y="148" width="41" height="202" fill="#2a6fb9"/>
+    <text x="558.5" y="143" text-anchor="middle" font-size="9" fill="#222">Rs 3,110</text>
+    <text x="558.5" y="366" text-anchor="middle" font-size="9" fill="#444">Prestige 16.0+</text>
+
+    <!-- Hawkins Futura: sale 4431 -> y40, mrp 4950 -> (just above) -->
+    <rect x="616" y="40" width="41" height="10" fill="#dbe6f6"/>
+    <rect x="616" y="40" width="41" height="310" fill="#2a6fb9"/>
+    <text x="636.5" y="36" text-anchor="middle" font-size="9" fill="#222">Rs 4,431</text>
+    <text x="636.5" y="366" text-anchor="middle" font-size="9" fill="#444">Hawkins Futura</text>
+  </g>
+
+  <text x="60" y="400" font-size="10" fill="#777">Rs values from Amazon.in listings, 13 Aug 2026. Striped-representation gap = M.R.P minus sale price.</text>
+</svg>
