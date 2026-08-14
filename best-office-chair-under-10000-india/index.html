@@ -19,6 +19,21 @@
 <meta name="twitter:image" content="https://desipicks.in/og-card.png">
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cc9133495c9a41928172bc95e58a6d54"}'></script>
 <script type='text/javascript'>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/y14c624yzu";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "y14c624yzu");</script>
+<script>
+(function(){
+  function track(ev, el){
+    try{ if(window.clarity){ clarity('event', ev, {url: el.href || ''}); } }catch(e){}
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest ? e.target.closest('a') : null;
+    if(!a || !a.href) return;
+    var isAff = a.rel && /nofollow/i.test(a.rel) && /^https?:\/\//i.test(a.href) && a.hostname !== location.hostname;
+    var inTable = a.closest('table') !== null;
+    if(isAff){ track('affiliate_click', a); }
+    if(inTable && isAff){ track('table_cta_click', a); }
+  });
+})();
+</script>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Best Office Chair Under ₹10,000 in India (2026)", "datePublished": "2026-08-13", "dateModified": "2026-08-13", "description": "Best office chair under 10000 in India: budget ergonomic mesh chairs from Green Soul, Wakefit and Da URBAN, with prices, ratings and lumbar support.", "author": {"@type": "Organization", "name": "Aura Editorial"}, "publisher": {"@type": "Organization", "name": "India Picks"}, "mainEntityOfPage": "https://desipicks.in/best-office-chair-under-10000-india/"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://desipicks.in/"}, {"@type": "ListItem", "position": 2, "name": "Best Office Chair Under ₹10,000 in India (2026)", "item": "https://desipicks.in/best-office-chair-under-10000-india/"}]}</script>
