@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">Philips air fryer capacities suitable for two people</title>
+  <desc id="desc">Bar chart comparing 4.1L and 4.2L Philips air fryer models and what a 4.2L pan holds per the official spec sheet.</desc>
+  <style>
+    .bar { fill:#d97706; }
+    .label { font:14px Arial, sans-serif; fill:#1f2937; }
+    .hlabel { font:13px Arial, sans-serif; fill:#111827; text-anchor:middle; }
+    .axis { font:12px Arial, sans-serif; fill:#6b7280; }
+    .title { font:bold 17px Arial, sans-serif; fill:#111827; }
+    .note { font:11px Arial, sans-serif; fill:#6b7280; }
+  </style>
+  <text x="360" y="28" class="title" text-anchor="middle">Philips air fryer specs for a 1-2 person kitchen (official, Philips.in)</text>
+
+  <g transform="translate(40,60)">
+    <text x="180" y="0" class="hlabel">4.1L - HD9200/90 (1400W)</text>
+    <rect x="60" y="14" width="150" height="40" class="bar"/>
+    <text x="150" y="40" class="label" text-anchor="middle" fill="#fff">4.1L</text>
+
+    <text x="420" y="0" class="hlabel">4.1L - HD9252/90 (1400W)</text>
+    <rect x="300" y="14" width="150" height="40" class="bar"/>
+    <text x="390" y="40" class="label" text-anchor="middle" fill="#fff">4.1L</text>
+
+    <text x="660" y="0" class="hlabel">4.2L - NA120/00 (1500W)</text>
+    <rect x="540" y="14" width="150" height="44" class="bar"/>
+    <text x="630" y="42" class="label" text-anchor="middle" fill="#fff">4.2L</text>
+  </g>
+
+  <g transform="translate(40,190)">
+    <text x="640" y="0" class="title" text-anchor="middle">What a 4.2L pan holds (NA120/00 spec sheet)</text>
+    <text x="180" y="34" class="hlabel">Fries</text>
+    <rect x="110" y="44" width="150" height="36" class="bar"/>
+    <text x="200" y="68" class="label" text-anchor="middle" fill="#fff">500 g</text>
+
+    <text x="420" y="34" class="hlabel">Chicken drumsticks</text>
+    <rect x="350" y="44" width="150" height="36" class="bar"/>
+    <text x="440" y="68" class="label" text-anchor="middle" fill="#fff">6</text>
+
+    <text x="630" y="34" class="hlabel">Vegetables</text>
+    <rect x="580" y="44" width="130" height="36" class="bar"/>
+    <text x="655" y="68" class="label" text-anchor="middle" fill="#fff">500 g</text>
+  </g>
+
+  <text x="360" y="330" class="note" text-anchor="middle">Source: Philips India official product pages (NA120/00, HD9200/90, HD9252/90). Capacities in litres; NA120 capacity figures from the official spec sheet.</text>
+</svg>

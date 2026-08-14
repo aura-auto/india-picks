@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="420" viewBox="0 0 680 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="680" height="420" fill="#ffffff"/>
+  <text x="20" y="34" font-size="19" font-weight="bold" fill="#1a1a1a">Agaro Regal vs Philips: capacity and wattage (official specs)</text>
+  <text x="20" y="54" font-size="12" fill="#555">Capacity in litres (bars) and wattage (labels) from manufacturer listings, August 2026.</text>
+
+  <!-- Capacity chart -->
+  <text x="20" y="96" font-size="14" font-weight="bold" fill="#1a1a1a">Basket capacity (litres)</text>
+  <!-- Agaro 2.3L -->
+  <text x="20" y="128" font-size="12" fill="#333">Agaro Regal 2.3L</text>
+  <rect x="150" y="114" width="132" height="18" fill="#f59e0b"/>
+  <text x="286" y="128" font-size="12" fill="#333">2.3 L</text>
+  <!-- Philips HD9200 4.1L -->
+  <text x="20" y="152" font-size="12" fill="#333">Philips HD9200/90 4.1L</text>
+  <rect x="150" y="138" width="236" height="18" fill="#1d4ed8"/>
+  <text x="390" y="152" font-size="12" fill="#333">4.1 L</text>
+  <!-- Philips HD9252 4.1L -->
+  <text x="20" y="176" font-size="12" fill="#333">Philips HD9252/90 4.1L</text>
+  <rect x="150" y="162" width="236" height="18" fill="#1d4ed8"/>
+  <text x="390" y="176" font-size="12" fill="#333">4.1 L</text>
+  <text x="20" y="196" font-size="11" fill="#777">Philips baskets hold roughly 78% more food than the Regal.</text>
+
+  <!-- Wattage chart -->
+  <text x="20" y="232" font-size="14" font-weight="bold" fill="#1a1a1a">Rated power (watts)</text>
+  <!-- Agaro 1800W -->
+  <text x="20" y="264" font-size="12" fill="#333">Agaro Regal</text>
+  <rect x="150" y="250" width="248" height="18" fill="#f59e0b"/>
+  <text x="402" y="264" font-size="12" fill="#333">1800 W</text>
+  <!-- Philips 1400W -->
+  <text x="20" y="288" font-size="12" fill="#333">Philips HD9200/90</text>
+  <rect x="150" y="274" width="193" height="18" fill="#1d4ed8"/>
+  <text x="347" y="288" font-size="12" fill="#333">1400 W</text>
+  <!-- Philips 1400W -->
+  <text x="20" y="312" font-size="12" fill="#333">Philips HD9252/90</text>
+  <rect x="150" y="298" width="193" height="18" fill="#1d4ed8"/>
+  <text x="347" y="312" font-size="12" fill="#333">1400 W</text>
+  <text x="20" y="332" font-size="11" fill="#777">Higher wattage heats faster but consumes more electricity; both handle normal frying loads.</text>
+
+  <!-- Price note -->
+  <text x="20" y="372" font-size="13" font-weight="bold" fill="#1a1a1a">Price anchor (verified):</text>
+  <text x="20" y="394" font-size="12" fill="#333">Philips HD9200/90 - about Rs 5,249 as of mid-August 2026. Agaro Regal is typically cheaper; both vary with sales.</text>
+</svg>
