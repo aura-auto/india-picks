@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Arial, Helvetica, sans-serif">
+  <title>Electric kettles under Rs 2,000 on Tata CLiQ - selling price vs MRP (17 August 2026)</title>
+  <rect width="720" height="420" fill="#ffffff" />
+  <text x="360" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Electric kettles under Rs 2,000 on Tata CLiQ</text>
+  <text x="360" y="52" text-anchor="middle" font-size="13" fill="#555555">Selling price vs M.R.P, rupees, 17 August 2026</text>
+
+  <!-- legend -->
+  <rect x="88" y="66" width="12" height="12" fill="#2874a6" />
+  <text x="105" y="76" font-size="11" fill="#333333">Selling price</text>
+  <rect x="200" y="66" width="12" height="12" fill="#d4e6f1" />
+  <text x="217" y="76" font-size="11" fill="#333333">M.R.P</text>
+
+  <!-- Y axis -->
+  <line x1="70" y1="60" x2="70" y2="360" stroke="#cccccc" stroke-width="1" />
+  <!-- gridlines + labels -->
+  <g font-size="11" fill="#666666" text-anchor="end">
+    <line x1="70" y1="360" x2="680" y2="360" stroke="#dddddd" stroke-width="1" />
+    <text x="62" y="364">0</text>
+    <line x1="70" y1="300" x2="680" y2="300" stroke="#eeeeee" stroke-width="1" />
+    <text x="62" y="304">500</text>
+    <line x1="70" y1="240" x2="680" y2="240" stroke="#eeeeee" stroke-width="1" />
+    <text x="62" y="244">1000</text>
+    <line x1="70" y1="180" x2="680" y2="180" stroke="#eeeeee" stroke-width="1" />
+    <text x="62" y="184">1500</text>
+    <line x1="70" y1="120" x2="680" y2="120" stroke="#eeeeee" stroke-width="1" />
+    <text x="62" y="124">2000</text>
+  </g>
+
+  <!-- bars: scale 0.088px per rupee, baseline y=360 -->
+  <!-- Item 1: Milton Euroline Go 1.2L: sell 849, mrp 1199 -->
+  <rect x="98" y="285.3" width="34" height="74.7" fill="#2874a6" />
+  <rect x="98" y="254.5" width="34" height="105.5" fill="#d4e6f1" />
+  <!-- Item 2: Wonderchef Acura 1.5L: sell 899, mrp 1500 -->
+  <rect x="168" y="280.9" width="34" height="79.1" fill="#2874a6" />
+  <rect x="168" y="228.0" width="34" height="132.0" fill="#d4e6f1" />
+  <!-- Item 3: Milton 1350W 2L: sell 999, mrp 1749 -->
+  <rect x="238" y="272.1" width="34" height="87.9" fill="#2874a6" />
+  <rect x="238" y="206.1" width="34" height="153.9" fill="#d4e6f1" />
+  <!-- Item 4: Wonderchef 1.8L: sell 999, mrp 2100 -->
+  <rect x="308" y="272.1" width="34" height="87.9" fill="#2874a6" />
+  <rect x="308" y="175.2" width="34" height="184.8" fill="#d4e6f1" />
+  <!-- Item 5: Prestige PKCS 1.2L: sell 1010, mrp 1345 -->
+  <rect x="378" y="271.1" width="34" height="88.9" fill="#2874a6" />
+  <rect x="378" y="241.6" width="34" height="118.4" fill="#d4e6f1" />
+  <!-- Item 6: Borosil Rio 1.5L: sell 1369, mrp 1440 -->
+  <rect x="448" y="239.5" width="34" height="120.5" fill="#2874a6" />
+  <rect x="448" y="233.3" width="34" height="126.7" fill="#d4e6f1" />
+  <!-- Item 7: Borosil Glass 1.2L: sell 1799, mrp 1890 -->
+  <rect x="518" y="201.7" width="34" height="158.3" fill="#2874a6" />
+  <rect x="518" y="193.7" width="34" height="166.3" fill="#d4e6f1" />
+
+  <!-- labels -->
+  <g font-size="10.5" fill="#333333" text-anchor="middle">
+    <text x="115" y="400">Milton</text>
+    <text x="115" y="412">1.2L</text>
+    <text x="185" y="400">W'chef</text>
+    <text x="185" y="412">Acura 1.5L</text>
+    <text x="255" y="400">Milton</text>
+    <text x="255" y="412">2L</text>
+    <text x="325" y="400">W'chef</text>
+    <text x="325" y="412">1.8L</text>
+    <text x="395" y="400">Prestige</text>
+    <text x="395" y="412">PKCS 1.2L</text>
+    <text x="465" y="400">Borosil</text>
+    <text x="465" y="412">Rio 1.5L</text>
+    <text x="535" y="400">Borosil</text>
+    <text x="535" y="412">Glass 1.2L</text>
+  </g>
+
+  <!-- value labels on top of sell bars -->
+  <g font-size="10" fill="#000000" text-anchor="middle" font-weight="bold">
+    <text x="115" y="281">Rs 849</text>
+    <text x="185" y="277">Rs 899</text>
+    <text x="255" y="268">Rs 999</text>
+    <text x="325" y="268">Rs 999</text>
+    <text x="395" y="267">Rs 1,010</text>
+    <text x="465" y="235">Rs 1,369</text>
+    <text x="535" y="197">Rs 1,799</text>
+  </g>
+
+  <text x="360" y="368" text-anchor="middle" font-size="10" fill="#888888">Recommended budget band: every model on this chart is under Rs 2,000</text>
+</svg>
